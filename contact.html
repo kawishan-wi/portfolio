@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kawishan Wijerathna</title>
+</head>
+<body>
+    <div class="masterdiv">
+        <div class="navbar">
+            <nav>
+                <li><a href="homepage.html" id="ht">Home </a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                
+                <li id="lc"><a href="about-me.html">About me</a></li>
+                <li id="lc"><a href="QandA.html">Q & A</a></li>
+
+            </nav> 
+        </div>
+
+        <div class="texts">
+            <div class="text1"><h1>Let's Chat...</h1></div>
+            <div class="text2"><h1>Tell me about <br><span style="color: #ed2648;">your project...</span> </h1></div>
+        </div>
+
+        <div class="con-details">
+            <div class="email">Email :</div>
+            <div class="email2"><a href=""><button>kawishanwijerathna@gmail.com</button></a></div>
+        </div>
+
+        <div class="con-details" >
+            <div class="email" >Whatsapp :</div>
+            <div><a href=""><button id="wa">+94 75 123 0122</button></a></div>
+        </div>
+
+        <div class="con-details" >
+            <div class="email" >Linkedin :</div>
+            <div><a href=""><button id="linkedin">Kawishan Wijerathna</button></a></div>
+        </div>
+
+        
+
+
+    </div>
+
+    <form action="https://api.web3forms.com/submit" method="POST" class="c-form">
+        <div>
+            <input type="hidden" name="access_key" value="99ca54fa-c86c-44c4-bb77-38ed286e934c">
+            <input name="Name" class="fbox1" type="text" placeholder="Your name" required>
+            <input name="Email" class="fbox1" type="text" required placeholder="Email">
+            <textarea name="Message" class="fbox2" type="text" required placeholder="Your message"></textarea>
+            <button class ="sbt" type="submit" >Submit</button>
+        </div>
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+    @font-face {
+        font-family: inter;
+        src: url(Inter-VariableFont_opsz\,wght.ttf);
+    }
+    
+    body{
+        background-color: #f9e9e2;
+    }
+    
+    .masterdiv {
+        margin-top: 0;
+        height: 90vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    .texts {
+        margin-top: 3%;
+       margin-left: 4%;
+    }
+    .text1 {
+        margin-top: 8%;
+        font-family: inter;
+        font-size: 2rem;
+        height: 2.5rem;
+        margin-left: 3%;
+        margin-bottom: 0;
+        
+        
+    }
+    
+    
+    nav{
+        margin-top: 1%;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        gap: 5%;
+        justify-content: center;
+    }
+    
+    .navbar a {
+        text-decoration: none;
+        color: black;
+        font-family: inter;
+        font-size: 1.3rem;
+        font-weight: bold;
+    
+        text-decoration: underline  red ;
+        text-underline-offset: 0.4rem;
+    }
+    
+    
+    .text2 {
+        
+        font-family: inter;
+        font-size: 2rem;
+        margin-left: 3%;
+        
+    }
+
+    
+    .con-details{
+        height: 70%;
+        width: 50%;
+        margin-top: -18%;
+        
+        margin-left: 45%;
+        display: flex;
+        border-left:solid 1px black; 
+        padding-left: 5%;
+        
+    }
+
+    .email {
+        font-weight: bold;
+        color: black;
+        font-family: inter;
+        font-size: 2rem;
+    
+        
+    }
+
+    .email2 button {
+        background-color: rgb(255, 171, 171);
+        color: rgb(0, 0, 0);
+        font-family: inter;
+        font-weight: 700;
+        margin-left: 10%;
+        font-size: 1.7rem;
+        padding-left: 4%;
+        padding-right: 4%;
+        
+        cursor: pointer;
+    }
+
+    #wa {
+        background-color: rgb(158, 255, 168);
+        width: 15rem;
+        color: rgb(0, 0, 0);
+        font-family: inter;
+        font-weight: bold;
+        margin-left: 10%;
+        font-size: 1.7rem;
+        padding-left: 4%;
+        padding-right: 4%;
+        cursor: pointer;
+    }
+
+    #linkedin {
+            background-color: rgb(200, 190, 255);
+            width: 20rem;
+            color: rgb(0, 0, 0);
+            font-family: inter;
+            font-weight: bold;
+            margin-left: 10%;
+            font-size: 1.7rem;
+            padding-left: 4%;
+            padding-right: 4%;
+            cursor: pointer;
+        
+    }
+
+    .c-form{
+        margin-left: 50%;
+        font-family: inter;
+        font-size: 1rem;
+        font-weight: bold;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: -17%;
+        
+    }
+
+    .fbox1 {
+        font-weight: bold;
+        height: 2rem;
+        width: 17rem;
+        margin: 2%;
+        border: none;
+        border: 2px solid rgb(0, 0, 0);
+        background-color: #ffffff;
+    
+
+    }
+
+    .fbox2 {
+        height: 7rem;
+        width: 37rem;
+        margin: 2%;
+        font-size: 1rem;
+        
+        border: 2px solid rgb(0, 0, 0);
+        background-color: #ffffff;
+    
+
+    }
+
+    .fbox1::placeholder{
+        color: rgb(0, 0, 0);
+        font-family: inter;
+       
+        padding-left: 5%;
+    }
+
+    .c-form textarea {
+        font-weight: bold;
+        resize: none;
+        padding-left: 3%;
+        padding-top: 3%;
+    }
+
+    .c-form input{
+        padding-left: 3%;
+        
+
+    }
+    .fbox2::placeholder {
+        padding-top: 2%;
+        
+        color: rgb(0, 0, 0);
+        font-family: inter;
+       
+        padding: 5%;
+        
+    }
+
+    
+
+    .sbt {
+        width: 10rem;
+        height: 3rem;
+        background-color: #ffc78b;
+        border: 3px solid #422800;
+        color: #422800;
+        box-shadow: #422800 4px 4px 0 0;
+        border-radius: 10px;
+        cursor: pointer;
+        font-family: inter;
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-top: 1.2rem;
+        margin-left: 30%;
+    }
+
+
+
+   
+
+    
+    
+
+
+</style>
